@@ -1,0 +1,100 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#container{
+    width:1100px;
+    margin: 0px auto;
+    border: 1px solid black;
+
+}
+header {
+    background: red;
+    height: 100px;
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+    line-height: 100px;
+    color: white;
+    border-bottom: 3px dashed black;
+}
+nav{
+    background: lightblue;
+    height: 50px;
+    border-bottom: 1px solid black;
+
+}
+
+nav ul li{
+    /** colocar en horizontal */
+    float: left;
+    /**Para quitar los estilos*/
+    list-style: none;
+    /**Separar las opciones del menú*/
+    margin: 10px;
+
+    line-height: 30px;
+    
+}
+
+#content{
+    float:left;
+    width:65%;
+    min-height: 500px;
+    background: green;
+    padding: 40px;
+}
+aside{
+    float:left;
+    width:calc(20%-20px);
+    background: orange;
+    min-height: 500px;
+    
+}
+.clearfix{
+    clear:both;
+}
+.article{
+    color: white;
+    margin-top:50px;
+    margin-bottom: 1px solid #eeeeee;
+}
+
+footer{
+    background: black;
+    color: white;
+    text-align: center;
+    height: 50px;
+    line-height: 50pxS;
+}
+
+table{
+    border: 1px solid black;
+    padding: 40px 40px 40px 40px;
+}
+
+.pieza{
+    width: 10%;
+}
+
+.pieza:hover{
+    width: 100%;
+}
+
+    © 2021 GitHub, Inc.
+    Terms
+    Privacy
+    Security
+    Status
+    Docs
+
+    Contact GitHub
+    Pricing
+    API
+    Training
+    Blog
+    About
