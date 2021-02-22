@@ -1,23 +1,102 @@
-<html>
-    <head>
-        <link rel="stylesheet" type="text/css" href="css/sara9.css">
-    </head>
-    <body>
-        <div id="cabecera" class="a"> 
-            <p>Bienvenidos a majosa phone</p>
-        </div>
-        <div id="indice" class="a">
-            Aquí van a aparecer todo tipo de móviles:
-            Iphone y Android
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>CSS básico</title>
+</head>
+<body style="background-color: beige;">
+</body>
+<body>
+ 
+    <div id="container">
+        <header><h1>Majosa Phone</h1></header>
 
-        </div>
-        <img src="images/movilfoto.jpg">
-        <div id="contenido" class="b">
-            <p> Tipos de móviles:
-            Smartphones,Gama alta,Gama media,Baratos,Chinos,Españoles,Para mayores,Para niños,Todoterreno,Grandes y Sin marcos</p>
-        </div>
-        <div id="piedepagina" class="b">
-            <address> Aquí dirección y datos de contacto</address>
-        </div>
-    </body>
+        <nav>
+            
+            <ul>
+                <li> <a href="">Inicio</a></li>
+                <li> <a href="">Origen</a></li>
+                <li> <a href="#valores">Valores de precios</a></li>
+                <li> <a href="">Blog</a></li>
+                <li> <a href="#contacto">Contacto</a></li>
+
+              
+            </ul>
+        </nav>
+        <div class="clearfix"></div>
+        <section id="content">
+
+            <article class="article" id="origen">
+                <h2>Algunas marcas de móviles:</h2>
+               
+                <ul>
+                    <li>Samsung</li>
+                    <li>Xaomi</li>
+                    <li>Iphone</li>
+                    <li>Alcatel</li>
+                    <li>Xperia</li>
+                    <li>Zte</li>
+                </ul>
+            </article>
+            <article class="article">
+                <h2>Vídeo</h2>
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://youtu.be/ZTcG80WOU0M" allowfullscreen></iframe>
+                  </div>
+            </article>
+            <article class="Precios medios:">
+                <h2>Precios medios:</h2>
+                <p>Medianamente un teléfono móvil no suele costar muy barato pero el valor mínimo si es barato ya que puede redondear sobre unos 80-100 euros y los más caros que suelen ser los mas nuevos o los que sean más inteligentes y mejor calidad pueden llegar a costar hasta 1.000 euros.
+                El teléfono móvil o teléfono celular es un aparato indispensable en la actualidad; sin embargo su popularización ha sido un fenómeno muy reciente. En un principio el teléfono móvil solo podía ser usado en vehículos por su tamaño, reduciéndose posteriormente a una unidad portátil, y finalmente al tamaño de bolsillo que se utiliza hoy en día.
+
+El sistema celular fue creado para satisfacer la demanda de comunicación móvil dentro de un espectro de radiofrecuencia limitado. Esta limitación es el factor original que motivó y sigue motivando el desarrollo del teléfono móvil, frente a otros de los varios factores como la duración de la batería o el tamaño del aparato.Algunos de los precios también suelen ser estos por ser más nuevos o viejos: </p>
+            </article>
+            <article class="article" id="valores">
+                <h2>Valor</h2>
+                                
+                    <table>
+                        <tr>
+                        <th>Pieza</th>
+                        <th>Valor</th>
+                        </tr>
+
+                        <tr>
+                            <td>Iphone 12</td>
+                            <td>1250</td>
+                            <td><img class="pieza" src="images/iphone12.jpg" alt="iphone 12" widht="130" height="130"></td>
+                            </tr>
+                           
+                        <tr>
+                        <td>Iphone 6</td>
+                        <td>200</td>
+                        <td><img class="pieza"  src="images/movilfoto.jpg" alt="iphone 6" widht="130" height="130"></td>
+                        </tr>
+                        <tr>
+                            <td>Xiaomi mi 10</td>
+                            <td>230</td>
+                           <td><img class="pieza"  src="images/xiaomiMi10.jpg" alt="xiaomiMi10" widht="130" height="130"></td>
+                            </tr>
+                    </table>
+            </article>
+   </section>
+
+
+        <aside>
+            <h2>Barra lateral</h2>
+            <form action="https://duckduckgo.com">
+                <input type="text" name="q">
+                <input type="submit" value="Buscar">
+            </form>
+        </aside>
+        <div class="clearfix"></div>
+        <footer>
+                pie de página
+        </footer>
+    
+    </div>
+
+
+</body>
 </html>
